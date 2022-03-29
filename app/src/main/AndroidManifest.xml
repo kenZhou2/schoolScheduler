@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.schoolscheduler">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.schoolscheduler">
+        <activity
+            android:name=".DrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.schoolscheduler.NoActionBar"/>
+
+        <activity android:name=".ringtones"/>
+
+        <activity android:name=".notification_sounds" />
+        <activity android:name=".notification_setting" />
+        <activity android:name=".userSignUp" /> <!-- Login/Signup -->
+        <activity android:name=".userLogin"> <!-- MainPage -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CalendarPage" />
+        <activity android:name=".CreateTask" />
+        <activity android:name=".TaskList" />
+        <activity android:name=".Main_Page" />
+        <!-- Settings Part -->
+         <!-- Task Part -->
+        <activity
+            android:name=".TaskPage.AddNewTask"
+            android:label="Add"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TaskPage.EditTaskContent"
+            android:label="Edit"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TaskPage.Task"
+            android:label="Tasks"
+            android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".SchedulePage"/>
+        <activity android:name=".NewCourse"/>
+
+
+        <!--Settings Part-->
+        <activity android:name=".profile"/>
+        <activity android:name=".general"/>
+        <activity android:name=".settings"/>
+
+        <!--Task Part-->
+
+
+        <receiver android:name=".TaskPage.AddNewTask$AlarmReceiver" />
+      
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "234493685805",
+    "firebase_url": "https://schoolscheduler-52a60.firebaseio.com",
+    "project_id": "schoolscheduler-52a60",
+    "storage_bucket": "schoolscheduler-52a60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234493685805:android:a8354b6621c06a41e248a4",
+        "android_client_info": {
+          "package_name": "com.example.schoolscheduler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234493685805-5pru8mjbdlfncmu0mo2l89s2qepmb1jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvmAUog88Bmvug4u4YRsA9TndTi_VXm3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234493685805-5pru8mjbdlfncmu0mo2l89s2qepmb1jt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
